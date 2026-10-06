@@ -35,6 +35,10 @@ A simple Android application designed to support **manual traffic surveys** by m
 
 ![Dark mode](docs/screenshots/dark_mode.png)
 
+## Demo
+
+![Application demo](docs/videos/demo.gif)
+
 ## Tech Stack
 
 |Technology|Usage|
