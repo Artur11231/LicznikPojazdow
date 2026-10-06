@@ -19,45 +19,23 @@ A simple Android application designed to support **manual traffic surveys** by m
 
 ## Screenshots
 
-</> Markdown
+### Main screen
 
-\## Screenshots
+![Main screen](docs/screenshots/main_screen.png)
 
+### Settings
 
+![Settings](docs/screenshots/settings.png)
 
-\### Main screen
+### Click history
 
+![Click history](docs/screenshots/history.png)
 
+### Dark mode
 
-!\[Main screen](docs/screenshots/main\_screen.png)
+![Dark mode](docs/screenshots/dark_mode.png)
 
-
-
-\### Settings
-
-
-
-!\[Settings](docs/screenshots/settings.png)
-
-
-
-\### Click history
-
-
-
-!\[Click history](docs/screenshots/history.png)
-
-
-
-\### Dark mode
-
-
-
-!\[Dark mode](docs/screenshots/dark\_mode.png)
-
-
-
-\## Tech Stack
+## Tech Stack
 
 |Technology|Usage|
 |-|-|
