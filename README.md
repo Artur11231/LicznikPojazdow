@@ -19,6 +19,8 @@ A simple Android application designed to support **manual traffic surveys** by m
 
 ## Screenshots
 
+</> Markdown
+
 \## Screenshots
 
 
