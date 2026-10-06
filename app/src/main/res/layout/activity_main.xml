@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Licznik pojazdów"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/carCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samochód osobowy: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/carButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samochód osobowy"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/truckCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ciężarówka: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/truckButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ciężarówka"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/busCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autobus: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/busButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autobus"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/settingsToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ustawienia" />
+
+        <LinearLayout
+            android:id="@+id/settingsSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:paddingTop="12dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switchTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tryb ciemny"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resetuj liczniki"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/historyButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Historia kliknięć"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/setBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ustaw kolor tła"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/setButtonColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ustaw kolor przycisków" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
