@@ -17,28 +17,6 @@ A simple Android application designed to support **manual traffic surveys** by m
 * Simple settings section
 * Offline operation — no account or backend required
 
-## Screenshots
-
-### Main screen
-
-![Main screen](docs/screenshots/main_screen.png)
-
-### Settings
-
-![Settings](docs/screenshots/settings.png)
-
-### Click history
-
-![Click history](docs/screenshots/history.png)
-
-### Dark mode
-
-![Dark mode](docs/screenshots/dark_mode.png)
-
-## Demo GIF
-
-![Application demo](docs/videos/demo.gif)
-
 ## Tech Stack
 
 |Technology|Usage|
@@ -73,6 +51,14 @@ When a vehicle button is pressed:
 5. The UI is refreshed immediately.
 
 The application therefore keeps collected data between launches without requiring an internet connection or an external database.
+
+
+## Demo GIF
+
+![Application demo](docs/videos/demo.gif)
+
+
+More screenshots here: [docs/screenshots](docs/screenshots)
 
 ## Project Structure
 
