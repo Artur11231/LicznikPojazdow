@@ -1,4 +1,4 @@
-# Licznik Pojazdów
+# Android Vehicle Click Tracker
 
 A simple Android application designed to support **manual traffic surveys** by making it quick and easy to count selected vehicle types and review recorded events.
 
